@@ -1,3 +1,5 @@
+https://bytelife.netlify.app
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1d8e9d36-b29a-4cb8-8183-e573746eaaf0/deploy-status)](https://app.netlify.com/sites/bytelife/deploys)
 
 # Getting Started with Create React App
