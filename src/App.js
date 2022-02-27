@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Video from "./Video.js";
+import "./App.css";
+import video from "./videos/tayvideo.mp4";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    //bem convention
+    <div className="app">      
+      <div className="app__videos">
+        <Video 
+          url="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4"
+          channel="fluffmaster"
+          caption="The fluff's revenge"
+          song="The fluff audio"
+          likes={500}
+          comments={250}
+          shares={111}
+        />
+        <Video 
+          url={video}
+          channel="fluffmaster"
+          caption="The fluff's revenge"
+          song="The fluff audio"
+          likes={500}
+          comments={250}
+          shares={111}
+        />
+        <Video />
+        <Video />
+      </div>
     </div>
   );
 }

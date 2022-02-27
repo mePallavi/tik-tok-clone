@@ -1,0 +1,14 @@
+.video {
+    position: relative; /*position relative to its parent*/
+    border: 1px solid black;
+    background-color: aliceblue;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start; /*pos where scroll will snap to*/
+}
+
+.video__player {
+    object-fit: fill;  /*fill makes whole video fit inside the container*/
+    width: 100%;
+    height: 100%;
+}
