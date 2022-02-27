@@ -4,7 +4,7 @@ html {
 }
 
 .app {
-    height: 100vh;
+    /* height: 100vh; */
     background-color: #141814;
     /*to center anything: foll 2 lines*/
     display: grid;
