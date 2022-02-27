@@ -13,9 +13,9 @@ function App() {
           channel="fluffmaster"
           caption="The fluff's revenge"
           song="The fluff audio"
-          likes={500}
-          comments={250}
-          shares={111}
+          likes={661}
+          comments={247}
+          shares={85}
         />
         <Video 
           url={video}
@@ -26,8 +26,24 @@ function App() {
           comments={250}
           shares={111}
         />
-        <Video />
-        <Video />
+        <Video 
+          url="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4"
+          channel="fluffmaster"
+          caption="The fluff's revenge"
+          song="The fluff audio"
+          likes={200}
+          comments={97}
+          shares={57}
+        />
+        <Video 
+          url="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4"
+          channel="fluffmaster"
+          caption="The fluff's revenge"
+          song="The fluff audio"
+          likes={400}
+          comments={120}
+          shares={73}
+        />
       </div>
     </div>
   );
