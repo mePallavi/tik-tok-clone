@@ -7,7 +7,7 @@
 }
 
 .videoFooter__text {
-    flex: 1;        /*sets precedence to the class and pushes the record to right*/
+    flex: 1;       /* sets precedence to the class and pushes the record to right */
 }
 
 .videoFooter__text > p {

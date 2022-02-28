@@ -4,7 +4,7 @@ html {
 }
 
 .app {
-    /* height: 100vh; */
+    height: 100%;
     background-color: #141814;
     /*to center anything: foll 2 lines*/
     display: grid;
@@ -13,8 +13,9 @@ html {
 
 .app__videos {
     position: relative;
-    height: 800px;
-    border-radius: 20px;
+    height: 100vh;
+    border-radius: 30px;
+    margin: 10px;
     overflow: scroll;
     width: 80%;
     max-width: 500px;  /*the max width the component can have when we to bigger screens*/    
