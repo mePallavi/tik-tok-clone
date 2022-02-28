@@ -15,7 +15,7 @@ html {
     position: relative;
     height: 100vh;
     border-radius: 30px;
-    margin: 10px;
+    margin: 3px 0;
     overflow: scroll;
     width: 80%;
     max-width: 500px;  /*the max width the component can have when we to bigger screens*/    
