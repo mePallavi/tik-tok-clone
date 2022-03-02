@@ -27,6 +27,7 @@ function Video({url, channel, caption, song, likes, comments, shares})
                 onClick={onVideoPress}
                 ref = {videoRef}  /*attach reference to videoRef*/
                 src={url}
+                poster=""
                 width="100%" height="100%">
             </video>
             <VideoFooter  
